@@ -15,8 +15,9 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) throws IOException {
 
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("Vista2.fxml"));
-
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("Forest.fxml"));
+		
+		loader.setController(new SetBlur());
 		mypane = (AnchorPane) loader.load();
 
 		stage.setTitle("Where's the squirrel?");
