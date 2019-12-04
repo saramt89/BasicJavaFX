@@ -6,7 +6,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
+/**
+ * Aplicación JavaFX que abre una imagen y tres botones. Con un boton le aplica un efecto blur(que distorsiona la imagen)
+ * y con el otro boton le quitamos el efecto. 
+ * Finalmente con otro boton cerramos la aplicación
+ * @author Sara
+ * @see BlurController
+ */
 
 public class Main extends Application {
 
